@@ -25,6 +25,7 @@ Route::prefix('/app')->group(function() {
     Route::get('/produtos', function (){ return 'Produtos';})->name('app.produtos');
 });
 
+// Demonstração de redirecionamento de rotas
 Route::get('/rota1', function () {
     echo 'Rota 1';
 })->name('site.rota1');
@@ -32,6 +33,11 @@ Route::get('/rota1', function () {
 Route::get('/rota2', function () {
     return redirect()->route('site.rota1');
 })->name('site.rota2');
+
+// Rota de contingência
+Route::fallback(function () {
+    echo 'A rota acessada não existe. <a href="' . route('site.index') . '">Clique aqui</a> para ir para a página inicial';
+});
 
 
 

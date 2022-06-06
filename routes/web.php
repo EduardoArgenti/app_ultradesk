@@ -26,13 +26,16 @@ Route::prefix('/app')->group(function() {
 });
 
 // Demonstração de redirecionamento de rotas
-Route::get('/rota1', function () {
+/*Route::get('/rota1', function () {
     echo 'Rota 1';
 })->name('site.rota1');
 
 Route::get('/rota2', function () {
     return redirect()->route('site.rota1');
 })->name('site.rota2');
+*/
+
+Route::get('/teste/{p1}/{p2}', 'TesteController@teste')->name('teste');
 
 // Rota de contingência
 Route::fallback(function () {

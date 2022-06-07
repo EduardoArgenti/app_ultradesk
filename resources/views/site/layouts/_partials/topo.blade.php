@@ -1,6 +1,7 @@
 <div class="topo">
     <div class="logo">
         <img src="{{ asset('img/logo.png') }}">
+        <h3 style="display: inline; color: #ffffff">Ultradesk</h3>
     </div>
 
     <div class="menu">

@@ -155,11 +155,13 @@ button:hover {
     height: 100%;
     text-align: center;
     margin-bottom: 100px;
+    background-color: #610094;
+    color: #ffffff;
 }
 
 .titulo-pagina {
     padding: 100px 0px 60px 0px;
-    background-color: #2a9ee2;
+    background-color: #3F0071;
     text-align: center;
 }
 
@@ -169,7 +171,7 @@ button:hover {
 }
 
 .informacao-pagina p{
-    color: #333;
+    color: #ffffff;
 }
 
 .rodape {

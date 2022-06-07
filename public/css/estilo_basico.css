@@ -24,8 +24,8 @@ input, select, textarea, button {
     margin: 10px 0px 10px 0px;
     box-sizing: border-box;
     border-radius: 3px;
-    background-color: transparent;
-    color: #333;
+    background-color: #ffffff;
+    color: #707070;
 }
 
 .texto-branco {
@@ -51,21 +51,21 @@ button:hover {
 }
 
 ::placeholder {
-    color: #333333;
+    color: #707070	;
     opacity: 1;
 }
 
 :-ms-input-placeholder {
-    color: #333333;
+    color: gray;
 }
 
 ::-ms-input-placeholder {
-    color: #333333;
+    color: #ffffff;
 }
 
 .topo {
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #000000;
     position: absolute;
     padding: 20px 0px 10px 0px;
 }
@@ -96,11 +96,16 @@ button:hover {
 .menu a {
     text-decoration: none;
     padding: 14px 16px;
-    color: #333;
+    color: white;
+    background-color: #610094;
+    border-radius: 70px;
+    margin: 10px;
+    padding: 20px 20px;
+    font-size: 20px;
 }
 
 .menu a:hover {
-    color: #268fd0;
+    color: #e8bbff;
 }
 
 .conteudo-destaque {
@@ -111,14 +116,14 @@ button:hover {
 
 .esquerda {
     float:left;
-    background-color: #268fd0;
+    background-color: #3F0071;
     width: 60%;
     height: 100%;
 }
 
 .direita {
     float:right;
-    background-color: #2a9ee2;
+    background-color: #610094;
     width: 40%;
     height: 100%;
 }

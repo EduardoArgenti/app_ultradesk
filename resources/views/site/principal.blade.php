@@ -3,26 +3,14 @@
 @section('titulo', $titulo)
 
 @section('conteudo')
-    <div class="topo">
 
-        <div class="logo">
-            <img src="{{ asset('img/logo.png') }}">
-        </div>
-
-        <div class="menu">
-            <ul>
-                <li><a href="{{ route('site.index') }}">Principal</a></li>
-                <li><a href="{{ route('site.sobrenos') }}">Sobre Nós</a></li>
-                <li><a href="{{ route('site.contato') }}">Contato</a></li>
-            </ul>
-        </div>
-    </div>
+    @include('site.layouts._partials.topo')
 
     <div class="conteudo-destaque">
 
         <div class="esquerda">
             <div class="informacoes">
-                <h1>Sistema Super Gestão</h1>
+                <h1>UltraDesk</h1>
                 <p>Software para gestão empresarial ideal para sua empresa.<p>
                 <div class="chamada">
                     <img src="{{ asset('img/check.png') }}">
